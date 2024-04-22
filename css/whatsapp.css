@@ -3,8 +3,8 @@
 	width: 70px;
 	height: 70px;
 	bottom: 40px;
-	right: 40px;
-	margin-right: 5%;
+	right: 5%;
+	margin-right: 20%;
 	background-color: #25d366;
 	color: #fff;
 	border-radius: 50px;
@@ -34,11 +34,11 @@
 }
 .float2 {
 	position: fixed;
-	margin-right: 10%;
+	margin-right: 30%;
 	width: 70px;
 	height: 70px;
 	bottom: 40px;
-	right: 40px;
+	right: 15%;
 	background-color: #003cff;
 	color: #fff;
 	border-radius: 50px;
