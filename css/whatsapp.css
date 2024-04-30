@@ -3,7 +3,7 @@
 	width: 70px;
 	height: 70px;
 	bottom: 40px;
-	right: 5%;
+	right: 10%;
 	margin-right: 3%;
 	background-color: #25d366;
 	color: #fff;
@@ -25,11 +25,11 @@
 
 .float2 {
 	position: fixed;
-	margin-right: 0%;
+	margin-right: 5%;
 	width: 70px;
 	height: 70px;
 	bottom: 40px;
-	right: 15%;
+	right: 20%;
 	background-color: #003cff;
 	color: #fff;
 	border-radius: 50px;
