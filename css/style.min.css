@@ -43,6 +43,7 @@
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
+	overflow-x: hidden;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -59,6 +60,7 @@ section {
 	display: block;
 }
 body {
+	width: 100vw;
 	margin: 0;
 	font-family: "Poppins", sans-serif;
 	font-size: 1rem;
@@ -656,7 +658,7 @@ pre code {
 .col-xl-12,
 .col-xl,
 .col-xl-auto {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	padding-right: 0;
 	padding-left: 0;

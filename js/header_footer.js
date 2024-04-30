@@ -9,9 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function createHeader() {
 	let headerCode = "";
 
-	headerCode = `<div class="row ">
-        <div class="col-lg-2 bg-secondary d-none d-lg-block">
-        </div>
+	headerCode = `<div class="row">
         <div class="col-lg-12">
             <!-- Header -->
             <div class="row bg-dark d-none d-lg-flex">
@@ -73,10 +71,10 @@ function createFooter() {
 
 	footerCode = `<div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="row pt-5 ">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-4 mb-5">
                 <img id="logo_lonera" src="img/Logoblanco.png" width="mr-auto" height="   250px" alt="" />
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-4 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Contactanos</h4>
                 <p><i class="fa fa-map-marker-alt text-primary mr-2"></i>Av. Roca 1663 San Miguel de Tucuman, Tucuman,
                     Argentina.</p>
@@ -89,7 +87,7 @@ function createFooter() {
                     <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-4 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Mensaje o Consulta!</h4>
                 <p>Envianos un mensaje, Su consulta no molesta.</p>
                 <div class="w-100">
